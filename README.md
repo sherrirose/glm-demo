@@ -26,14 +26,11 @@ summary(df2)
 head(df2)
 ```
 
-Next run a multivariable logistic regression
+Next, run a multivariable logistic regression.
 
 ```r
 # Run a multivariable logistic regression
 logistic1 <- glm(Y ~ W1 + W2, data=df2, family="binomial")
-
-# Predicted probabilities from the regression
-pylogistic1 <- predict(logistic1, type="response")
 
 # Summarize results
 summary(logistic1)
