@@ -1,6 +1,8 @@
-# Short Demo of glm() using Simulated Data
+# Short demo of glm() using simulated data
 
-In order to demonstrate the glm() function for a logistic regression, I will first create some simulated data. Simulations are incredibly useful in population health research because they allow us to generate a world where we know the underlying truth. Here I am using a simulated dataset to create a reproducible example.
+In order to demonstrate the glm() function for a logistic regression, I will first create some simulated data. Simulations are incredibly useful in population health research because they allow us to generate a world where we know the underlying truth. Here, I am using a simulated dataset to create a reproducible example that demonstrates the glm() function. 
+
+If you are interested in learning more about the role of simulated data in health research, you may wish to read this paper: Morris, T. P., White, I. R., & Crowther, M. J. (2019). Using simulation studies to evaluate statistical methods. Statistics in Medicine, 38(11), 2074-2102. https://doi.org/10.1002/sim.8086.
 
 ```r
 ################
